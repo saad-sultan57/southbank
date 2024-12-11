@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -30,7 +34,7 @@
             <div class="hero-section">
                 <div class="video-container">
                     <video id="bgVideo" autoplay muted loop>
-                        <source src="https://bynder.southbankcentre.co.uk/m/2fc730fae70665a7/original/hp-masthead-v3.mp4" type="video/mp4">
+                        <source src="images/bg-video.mp4" type="video/mp4">
                     </video>
                     <button id="videoControl" class="video-control">
                         <i class="fas fa-pause"></i>
@@ -52,7 +56,75 @@
                         <h2>On now & coming up</h2>
                         <a href="#" class="view-all">View all <i class="fas fa-chevron-right"></i></a>
                     </div>
+                 <div class="owl-carousel event-carousel owl-theme">
+                        <div class="event-card">
+                            <div class="position-relative">
+                            <img src="images/image1.webp" alt="Classical Music">
+                            <div class="card-tag">Classical music</div>
+                            </div>
+                            <div class="card-content">
+                                <h3>Vivaldi's Gloria</h3>
+                                <p class="event-date">Wed 11 Dec 2024, 7.30pm</p>
+                                <p class="event-description">Come and raise your spirits with a soaring performance of Vivaldi's choral masterpiece</p>
+                                <div class="card-footer">
+                                    <span class="performers">Performers & repertoire</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="position-relative">
+                            <img src="images/image1.webp" alt="Classical Music">
+                            <div class="card-tag">Classical music 222</div>
+                            </div>
+                            <div class="card-content">
+                                <h3>Vivaldi's Gloria</h3>
+                                <p class="event-date">Wed 11 Dec 2024, 7.30pm</p>
+                                <p class="event-description">Come and raise your spirits with a soaring performance of Vivaldi's choral masterpiece</p>
+                                <div class="card-footer">
+                                    <span class="performers">Performers & repertoire</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Repeat similar structure for Winter Light Tours and Rug Rhymes cards -->
+                    </div>
+
+                    <div class="upcoming-section">
+                        <h2>Festivals & series</h2>
+                        <a href="#" class="view-all">View all <i class="fas fa-chevron-right"></i></a>
+                    </div>
+
+                    <div class="owl-carousel festival-carousel owl-theme">
+                        <div class="festival-card">
+                            <img src="images/pattern1.webp" alt="Classical Music">
+                            <div class="festival-content">
+                                <h3>Classical Music</h3>
+                                <p class="festival-date">Autumn/Winter 2024/25</p>
+                                <p class="festival-description">This is classical music in the 21st century</p>
+                            </div>
+                        </div>
+                        
+                        <div class="festival-card">
+                            <img src="images/jazz-festival.jpg" alt="Jazz Festival">
+                            <div class="festival-content">
+                                <h3>Southbank Centre x Montreux Jazz Festival Residency</h3>
+                                <p class="festival-date">Fri 31 Jan – Sun 2 Feb</p>
+                                <p class="festival-description">Experience the best of jazz past and present in a new collaboration celebrating Nina Simone's work</p>
+                            </div>
+                        </div>
+                        
+                        <div class="festival-card">
+                            <img src="images/imagine-festival.jpg" alt="Imagine Festival">
+                            <div class="festival-content">
+                                <h3>Imagine Festival</h3>
+                                <p class="festival-date">Tue 18 – Sun 23 Feb 2025</p>
+                                <p class="festival-description">Join us for a fun-filled February half-term</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>

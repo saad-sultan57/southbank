@@ -30,3 +30,52 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+$(document).ready(function(){
+    $('.event-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        dots: false,
+        navText: [
+            '<i class="fas fa-chevron-left"></i>',
+            '<i class="fas fa-chevron-right"></i>'
+        ],
+        responsive:{
+            0: {
+                items: 1,
+                nav: true
+            },
+            768: {
+                items: 2,
+                nav: true
+            },
+            1024: {
+                items: 3,
+                nav: true
+            }
+        }
+    });
+
+    $('.festival-carousel').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        dots: false,
+        navText: [
+            '<i class="fas fa-chevron-left"></i>',
+            '<i class="fas fa-chevron-right"></i>'
+        ],
+        responsive:{
+            0: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            1200: {
+                items: 3
+            }
+        }
+    });
+});
