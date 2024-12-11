@@ -66,6 +66,9 @@ body{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 .navbar-center img{
     width: 100%;
