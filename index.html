@@ -13,6 +13,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 <body>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <button class="close-sidebar" id="closeSidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#whats-on">What's On</a></li>
+                <li><a href="#festivals">Festivals & Series</a></li>
+                <li><a href="#recent">Recent Announced</a></li>
+                <li><a href="#free-events">Free Events</a></li>
+                <li><a href="#magazine">Magazine</a></li>
+                <li><a href="#explore">More to Explore</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
     <div class="wrapper">
         <div class="inner-wrapper">
             <header class="navbar">
@@ -52,7 +70,7 @@
                         <a href="#" class="nav-link">Plan your visit <i class="fas fa-chevron-right"></i></a>
                     </div>
 
-                    <div class="upcoming-section">
+                    <div class="upcoming-section" id="whats-on">
                         <h2>On now & coming up</h2>
                         <a href="#" class="view-all">View all <i class="fas fa-chevron-right"></i></a>
                     </div>
@@ -104,7 +122,7 @@
                         </div>
                     </div>
 
-                    <div class="upcoming-section">
+                    <div class="upcoming-section" id="festivals">
                         <h2>Festivals & series</h2>
                         <a href="#" class="view-all">View all <i class="fas fa-chevron-right"></i></a>
                     </div>
@@ -138,7 +156,7 @@
                         </div>
                     </div>
 
-                    <div class="upcoming-section">
+                    <div class="upcoming-section" id="recent">
                         <h2>Recent Announced</h2>
                         <a href="#" class="view-all">View all <i class="fas fa-chevron-right"></i></a>
                     </div>
@@ -190,7 +208,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="upcoming-section">
+                    <div class="upcoming-section" id="free-events">
                         <h2>Free Events</h2>
                         <a href="#" class="view-all">View all <i class="fas fa-chevron-right"></i></a>
                     </div>
@@ -242,13 +260,13 @@
                         </div>
                     </div>
 
-                    <div class="upcoming-section with-us">
+                    <div class="upcoming-section with-us ">
                         <h2>While you're with us
                         </h2>
                         <p>Make the most of your visit and explore all our venues and spaces have to offer.</p>
                     </div>
 
-                    <div class="owl-carousel festival-carousel owl-theme">
+                    <div class="owl-carousel festival-carousel owl-theme " style="margin-top: 100px;">
                         <div class="festival-card">
                             <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7" alt="Classical Music">
                             <div class="festival-content">
@@ -281,7 +299,7 @@
                     <div class="content-section">
                         
     
-                        <div class="upcoming-section with-us">
+                        <div class="upcoming-section with-us" id="magazine">
                             <h2>Magazine</h2>
                             <p>Get closer to the arts and artists shaping our culture.</p>
                             <a href="#" class="view-all " style="margin-top: 20px;">View all <i class="fas fa-chevron-right"></i></a>
@@ -335,10 +353,8 @@
                         </div>
                     </div>
                 </div>
-
-
-                <div style="background: #F4F4F4;">
-                    <div class="content-section">
+                <div >
+                    <div class="content-section" id="explore">
                         <div class="upcoming-section with-us">
                             <h2>More to explore
                             </h2>
@@ -382,10 +398,121 @@
                         </div>
                     </div>
                 </div>
+
+                
+
+
             </div>
+
+            <div class="newsletter-section">
+                    <div class="newsletter-content">
+                        <div class="newsletter-icon">
+                            <img src="images/envelope.jpg" alt="Newsletter icon">
+                        </div>
+                        <div class="newsletter-text">
+                            <h3>Stay in touch</h3>
+                            <p>Sign up for updates about events, news and special offers.</p>
+                        </div>
+                        <form class="newsletter-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="First name" required>
+                                <input type="text" placeholder="Last name" required>
+                                <input type="email" placeholder="Email address" required>
+                                <button type="submit">Sign up today</button>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+
+            
         </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <!-- Venues Section -->
+                <div class="footer-section">
+                    <h3>Our venues & spaces</h3>
+                    <ul>
+                        <li><a href="#">Royal Festival Hall</a></li>
+                        <li><a href="#">Queen Elizabeth Hall</a></li>
+                        <li><a href="#">The Clore Ballroom</a></li>
+                        <li><a href="#">Hayward Gallery</a></li>
+                        <li><a href="#">National Poetry Library</a></li>
+                        <li><a href="#" class="view-all-link">View all <i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+    
+                <!-- Quick Links Section -->
+                <div class="footer-section">
+                    <h3>What's on</h3>
+                    <ul>
+                        <li><a href="#">Visit us</a></li>
+                        <li><a href="#">Join & support</a></li>
+                        <li><a href="#">Create, learn & take part</a></li>
+                    </ul>
+                </div>
+    
+                <!-- About Section -->
+                <div class="footer-section">
+                    <h3>About us</h3>
+                    <ul>
+                        <li><a href="#">Magazine</a></li>
+                        <li><a href="#">News & press</a></li>
+                        <li><a href="#">Venue hire</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Section -->
+                <div class="footer-section">
+                    <h3>Contact us</h3>
+                    <ul>
+                        <li><a href="#">Access</a></li>
+                        <li><a href="#">Shopping</a></li>
+                        <li><a href="#">Our policies</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Social Media & Bottom Section -->
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <h3>Follow us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                    <button class="chat-button"><i class="fas fa-comment"></i> Chat with us</button>
+                </div>
+                
+                <div class="footer-logo">
+                    <img src="images/sbc-logo.svg" alt="Southbank Centre Logo">
+                    <div class="footer-legal">
+                        <p>© Southbank Centre</p>
+                        <p>Southbank Centre is a charity registered in England and Wales No.298909</p>
+                        <div class="legal-links">
+                            <a href="#">Site by Substrakt</a>
+                            <a href="#">Cookie Settings</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="supported-by">
+                    <p>Supported by</p>
+                    <div class="supporter-logos">
+                        <img src="images/logo1-footer.svg" alt="Bloomberg Philanthropies">
+                        <img src="images/logo2.svg" alt="Arts Council England">
+                    </div>
+                </div>
+    
+                
+            </div>
+        </footer>
     </div>
+
+    
 
     <script src="script.js"></script>
 </body>
-</html></html>
+</html>
