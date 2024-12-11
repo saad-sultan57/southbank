@@ -335,7 +335,7 @@ body{
     margin: 10px;
     transition: transform 0.3s ease;
     /* aspect-ratio: 16/9; */
-    height: 500px;
+    height: 550px;
 }
 
 .festival-card img {
@@ -381,3 +381,33 @@ body{
     line-height: 1.4;
 }
 
+.with-us p{
+    font-size: clamp(16px, 2vw, 20px) !important;
+}
+
+.event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.event-cards .event-card {
+    flex: 1;
+    min-width: 300px; /* Minimum width before wrapping */
+    max-width: calc(33.333% - 14px); /* Maximum width (3 cards per row) */
+    margin: 0; /* Remove default margin since we're using gap */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1024px) {
+    .event-cards .event-card {
+        max-width: calc(50% - 10px); /* 2 cards per row */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .event-cards .event-card {
+        max-width: 100%; /* 1 card per row */
+    }
+}
