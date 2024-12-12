@@ -4,13 +4,17 @@
     margin: 0;
 }
 
-body{
-    background-color: #000;
-}
 
 @font-face {
     font-family: 'Southbank';
-    src: url('fonts/sc-noe-bold.woff');
+    src: url('../fonts/sc-noe-bold.woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    background-color: #000;
+    font-family: 'Southbank';
 }
 .position-relative{
     position: relative;
@@ -149,6 +153,7 @@ body{
 }
 
 .hero-content h1 {
+    font-family: 'Southbank';
     font-size: 5vw;
     line-height: 5vw;
     font-weight: 400;
