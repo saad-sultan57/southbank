@@ -70,7 +70,7 @@ body{
 .navbar-link, .navbar-icon {
     margin: 0 10px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 215, 0);
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -159,6 +159,7 @@ body{
     font-weight: 400;
     text-align: center;
     padding: 0px 20px;
+    color: rgb(255, 215, 0);
 }
 
 .content-section {
@@ -173,6 +174,7 @@ body{
     line-height: 1.2;
     margin-bottom: 30px;
     text-align: center;
+    color: rgb(255, 215, 0);
 }
 
 .navigation-links {
@@ -264,6 +266,7 @@ body{
     font-family: 'Southbank';
     font-size: 30px;
     margin-bottom: 10px;
+    color: rgb(255, 215, 0);
 }
 
 .event-date {
@@ -378,6 +381,7 @@ body{
     font-size: 32px;
     margin-bottom: 10px;
     color: white;
+    color: rgb(255, 215, 0);
 }
 
 .festival-date {
@@ -503,7 +507,7 @@ body{
 
 /* Newsletter Section Styles */
 .newsletter-section {
-    background-color: #428546;
+    background-color: rgb(75, 0, 110);
     padding: 1rem;
     width: 100%;
     margin-top: 20px;
@@ -535,6 +539,7 @@ body{
     font-family: 'Southbank';
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    color: rgb(255, 215, 0);
 }
 
 .newsletter-text p {
@@ -561,8 +566,8 @@ body{
 }
 
 .form-group button {
-    background-color: #0046FF;
-    color: white;
+    background-color: rgb(255, 215, 0);
+    color: black;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 4px;
@@ -595,6 +600,7 @@ body{
     font-size: 24px;
     margin-bottom: 20px;
     color: #ffffff;
+    color: rgb(255, 215, 0);
 }
 
 .footer-section ul {
@@ -646,6 +652,7 @@ body{
     font-size: 24px;
     margin-bottom: 20px;
     color: #ffffff;
+    color: rgb(255, 215, 0);
 }
 
 .social-icons {
@@ -655,7 +662,7 @@ body{
 }
 
 .social-icons a {
-    color: #ffffff;
+    color: rgb(255, 215, 0);
     font-size: 24px;
     transition: color 0.3s ease;
 }
@@ -666,8 +673,8 @@ body{
 
 .chat-button {
     background: none;
-    border: 2px solid #ffffff;
-    color: #ffffff;
+    border: 2px solid rgb(255, 215, 0);
+    color: rgb(255, 215, 0);
     padding: 10px 20px;
     font-family: 'Southbank';
     font-size: 16px;
