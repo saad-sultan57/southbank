@@ -39,7 +39,7 @@ body{
     width: 100%;
     min-height: 100vh;
     border-radius: 10px;
-    background-color: #ffffff;
+    background:rgb(75, 0, 110)
 }
 .navbar {
     display: flex;
